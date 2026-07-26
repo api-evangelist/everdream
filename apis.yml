@@ -1,7 +1,24 @@
 aid: everdream
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/everdream.png
 name: Everdream
-description: Everdream is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Everdream Corporation was an on-demand desktop and IT asset management SaaS provider founded
+  in 1998 and headquartered in Fremont, California. It offered hosted remote management, monitoring, and
+  security services that gave organizations visibility into their hardware and software assets over the
+  internet. Backed by Canaan Partners and other venture investors, Everdream was acquired by Dell in
+  December 2007 and folded into Dell's managed-services offerings. The company is defunct; the everdream.com
+  domain is now parked and listed for sale, and there is no active public API, developer portal, or
+  documentation surface to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/everdream/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +26,32 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-detail: Acquired by Dell in December 2007; everdream.com now parked/for-sale, no live developer surface.
+x-founded: '1998'
+x-headquarters: Fremont, California, United States
+x-acquired-by: dell
+x-acquired-date: '2007-12-20'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Defunct
+- Acquired
+- IT Management
+- Desktop Management
+- Remote Management
+- SaaS
+- Managed Services
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
